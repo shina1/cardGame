@@ -1,5 +1,5 @@
 html {
-  background-color: #092e20;
+  background-color: #fff;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
   border-radius: 8px;
   box-shadow: black 0px 0px 2px;
   width: 87%;
-  background: #fff;
+  background-color: #fff;
   margin: 20px auto;
   border: solid 1px black;
   font-family: arial, sans-serif;
