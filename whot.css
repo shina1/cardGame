@@ -85,7 +85,7 @@ input::placeholder {
 }
 .instruction {
   position: absolute;
-  left: 700px;
+  left: 500px;
   top: 75px;
   width: 30%;
   padding: 5px;
@@ -108,7 +108,6 @@ input::placeholder {
   color: #2e080e;
 }
 footer {
-  border: 2px solid red;
   height: 20vh;
   margin: 10px;
   width: 100%;
