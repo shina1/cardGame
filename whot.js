@@ -71,7 +71,7 @@ deckLower.addEventListener("click", () => {
 // for restartiung the game
 
 restart.addEventListener("click", () => {
-  window.location.assign("whot.html");
+  window.location.assign("index.html");
 });
 
 //when you click a card in your hand, if it's
