@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>WHOT!</title>
+    <link rel="stylesheet" href="whot.css" />
+    <script src="jquery-1.7.min.js"></script>
+  </head>
+  <body>
+    <h1><span>CARD</span> GAME</h1>
+
+    <img class="preload" src="img/cards.png" />
+
+    <div id="card-table">
+      <button id="upper-hand" class="btn">Upper Hand</button>
+      <button id="lower-hand" class="btn">Lower Hand</button>
+      <input type="text" id="card-number" placeholder="Enter number of cards" />
+      <button id="restart" class="btn">Play Again</button>
+      <button id="deal" class="btn">DEAL</button>
+      <!-- <button id="shuffle">Shuffle</button> -->
+    </div>
+    <div class="instruction">
+      <div class="inst-top">
+        <h2>INSTRUCTION</h2>
+        <p>Follow the following instructions to play the game</p>
+      </div>
+      <ul>
+        <li>
+          Enter the number of cards to be dealt to each player in the input
+          form.
+        </li>
+        <li>Click on the DEAL button to deal cards to each player</li>
+        <li>
+          UPPER HAND :- stacks of cards at the top.<br />
+          LOWER HAND:- stacks of cards at he bottom.
+        </li>
+        <li>
+          To add more cards to either of the hands, click on the bottom
+          indicating the hands first then click on the pile of cards on the left
+          (MARKET).
+        </li>
+      </ul>
+    </div>
+    <footer></footer>
+    <!-- load this at the bottom so the #card-table element exists -->
+    <script src="deckType.js"></script>
+    <script src="cards.js"></script>
+    <script src="whot.js"></script>
+  </body>
+</html>
